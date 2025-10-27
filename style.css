@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f3e7 url('images/old-paper-texture.jpg') center/cover no-repeat fixed;
+  font-family: 'Cedarville Cursive', 'Dancing Script', cursive;
+  color: #3b2f2f; /* dark brown ink color */
+  line-height: 2;
+}
+
+.letter {
+  width: 60%;
+  max-width: 700px;
+  margin: 100px auto;
+  background-color: rgba(255, 248, 230, 0.8);
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: left;
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.collage {
+  position: relative;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.photo {
+  width: 45%;
+  margin: 10px;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+  filter: sepia(0.2) contrast(1.1);
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.rotate-left {
+  transform: rotate(-4deg);
+}
+
+.rotate-right {
+  transform: rotate(3deg);
+}
+
+.closing {
+  margin-top: 60px;
+  text-align: right;
+  font-size: 1.4em;
+}
+
+.signature {
+  font-size: 1.6em;
+  font-family: 'Dancing Script', cursive;
+}
